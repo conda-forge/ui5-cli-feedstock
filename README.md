@@ -48,6 +48,48 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_nodejs14</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_nodejs14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_nodejs16</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_nodejs16" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_nodejs17</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=linux&configuration=linux_aarch64_nodejs17" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_nodejs14</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_nodejs14" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_nodejs16</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_nodejs16" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_nodejs17</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=linux&configuration=linux_ppc64le_nodejs17" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_nodejs14</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
@@ -66,6 +108,20 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=osx&configuration=osx_64_nodejs17" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_nodejs16</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_nodejs16" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_nodejs17</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=15574&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ui5-cli-feedstock?branchName=master&jobName=osx&configuration=osx_arm64_nodejs17" alt="variant">
                 </a>
               </td>
             </tr><tr>
