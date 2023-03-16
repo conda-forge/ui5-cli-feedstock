@@ -11,7 +11,6 @@ source:
 
 build:
   number: 0
-  skip: true  # [nodejs == "14"]
 
 requirements:
   build:
