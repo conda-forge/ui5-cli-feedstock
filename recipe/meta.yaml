@@ -1,5 +1,5 @@
 {% set name = "ui5-cli" %}
-{% set version = "4.0.11" %}
+{% set version = "4.0.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/SAP/ui5-cli/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: bb99f8e9d95058db85d2291513a789579cf125136744953ab72f060312c4cd76
+  sha256: 3d8a4bb3133640a2feb38549362188f62041648ba4ae22e0d97fe79f977e258d
 
 build:
   number: 0
