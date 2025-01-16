@@ -6,18 +6,18 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/SAP/ui5-cli/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 3d8a4bb3133640a2feb38549362188f62041648ba4ae22e0d97fe79f977e258d
+  url: https://registry.npmjs.org/@ui5/cli/-/cli-${{ version }}.tgz
+  sha256: 383893690835032853d74c9f8e45e6c837336f0d0f11040c60661d937304d78d
 
 build:
   number: 0
+  noarch: generic
 
 requirements:
   build:
     - nodejs
-  host:
-    - nodejs
-    - yarn <2
+    - pnpm
+    - pnpm-licenses
   run:
     - nodejs
 
@@ -29,10 +29,11 @@ about:
   home: https://github.com/SAP/ui5-cli
   license: Apache-2.0
   license_file:
-    - LICENSES/Apache-2.0.txt
-    - ThirdPartyLicenses.txt
+    - LICENSES.txt
+    - third-party-licenses.txt
   summary: 'UI5 Tooling: CLI'
 
 extra:
   recipe-maintainers:
+    - danielnachun
     - xhochy
