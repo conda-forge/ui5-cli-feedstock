@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/@ui5/cli/-/cli-{{ version }}.tgz
-  sha256: 383893690835032853d74c9f8e45e6c837336f0d0f11040c60661d937304d78d
+  sha256: 9d7133b1f238bdab40910b3907fc7f227494f526b66f6e4faaf9a0ac4e5f84f7
 
 build:
   number: 0
