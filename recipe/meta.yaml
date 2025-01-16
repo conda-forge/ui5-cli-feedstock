@@ -29,7 +29,7 @@ about:
   home: https://github.com/SAP/ui5-cli
   license: Apache-2.0
   license_file:
-    - LICENSES.txt
+    - LICENSE.txt
     - third-party-licenses.txt
   summary: 'UI5 Tooling: CLI'
 
