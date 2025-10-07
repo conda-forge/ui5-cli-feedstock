@@ -1,5 +1,5 @@
 {% set name = "ui5-cli" %}
-{% set version = "4.0.28" %}
+{% set version = "4.0.30" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/@ui5/cli/-/cli-{{ version }}.tgz
-  sha256: 66835a8829a6916fb7e58383d4125a8d1b0385e74a8539593f7a8b769624d427
+  sha256: e8b88592168282dc4cae3849d02d74008ce982ec8ec37ab7130eac7243a3db9e
 
 build:
   number: 0
