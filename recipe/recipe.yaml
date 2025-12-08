@@ -1,16 +1,18 @@
-{% set name = "ui5-cli" %}
-{% set version = "4.0.38" %}
+schema_version: 1
+
+context:
+  version: 4.0.38
 
 package:
-  name: {{ name|lower }}
-  version: {{ version }}
+  name: ui5-cli
+  version: ${{ version }}
 
 source:
-  url: https://registry.npmjs.org/@ui5/cli/-/cli-{{ version }}.tgz
+  url: https://registry.npmjs.org/@ui5/cli/-/cli-${{ version }}.tgz
   sha256: 0554b3b141f769ed15aeea1c9638a24a33513f78db075fc85d7287915ee7676e
 
 build:
-  number: 0
+  number: 1
   noarch: generic
 
 requirements:
@@ -21,17 +23,17 @@ requirements:
   run:
     - nodejs
 
-test:
-  commands:
-    - ui5 --help
+tests:
+  - script:
+      - ui5 --help
 
 about:
-  home: https://github.com/SAP/ui5-cli
   license: Apache-2.0
   license_file:
     - LICENSE.txt
     - third-party-licenses.txt
-  summary: 'UI5 Tooling: CLI'
+  summary: "UI5 Tooling: CLI"
+  homepage: https://github.com/SAP/ui5-cli
 
 extra:
   recipe-maintainers:
