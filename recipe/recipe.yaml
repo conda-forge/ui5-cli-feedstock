@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "4.0.41"
+  version: "4.0.42"
 
 package:
   name: ui5-cli
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://registry.npmjs.org/@ui5/cli/-/cli-${{ version }}.tgz
-  sha256: 22be50f39b4df22cd336308fbb8f5106bfd116439c058df506ca3a4908a99151
+  sha256: 5b71b02bd47461f322939d4dc4050d814fd2cbd285479319c20b70c9ad49d0b6
 
 build:
   number: 0
